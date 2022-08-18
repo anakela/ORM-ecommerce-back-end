@@ -56,6 +56,8 @@ THEN I am able to successfully create, update, and delete data in my database
 
 ![](./assets/images/challenge_13_orm_ecommerce_back_end.gif)
 
+https://user-images.githubusercontent.com/103882157/185344429-bd91466f-402b-49e9-8bf0-85e6f43e588b.mp4
+
 ### Links
 
 - Solution URL: [https://github.com/anakela/orm-ecommerce-back-end](https://github.com/anakela/orm-ecommerce-back-end)
