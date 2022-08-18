@@ -52,15 +52,9 @@ THEN I am able to successfully create, update, and delete data in my database
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./assets/images/challenge_13_orm_ecommerce_back_end.png)
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it.
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+![](./assets/images/challenge_13_orm_ecommerce_back_end.gif)
 
 ### Links
 
@@ -71,30 +65,27 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Built With
 
-- Semantic HTML5 markup
-- CSS
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+- JavaScript
+- Express.js
+- Node.js
+- Sequelize.js
+- MySQL
+- DOTENV
 
 ### What I Learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+This challenge gave me a much better understanding of routes and models and how they interact.  In addition, I was able to practice using `Sequelize` rather than `MySQL` to query the database, something that I haven't been very comfortable with in the past.
 
-To see how you can add code snippets, see below:
+Being able to use and understand `express` routes to GET, POST, PUT, and DELETE database items was a very interesting aspect of this project.  For the most part, they worked very well.
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
+That being said, had difficulty with two of my routes/database queries:
+- GET - Update Product
+- GET - Update Tag
 
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
+For both of these, I received `400 Bad Request` errors for both of these requests, and was shown empty objects in Insomnia's preview window.  When I checked the database in MySQL Workbench, however, the changes to the database were actually rendered.  (This can be seen in the walkthrough video as well as the screenshots below.)
 
-If you want more help with writing markdown, check out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
+![](./assets/images/before_product_update.png)
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
 
 ### Continued Development
 
