@@ -84,31 +84,39 @@ That being said, had difficulty with two of my routes/database queries:
 
 For both of these, I received `400 Bad Request` errors for both of these requests, and was shown empty objects in Insomnia's preview window.  When I checked the database in MySQL Workbench, however, the changes to the database were actually rendered.  (This can be seen in the walkthrough video as well as the screenshots below.)
 
+Before updating the `product` table:
 ![](./assets/images/before_product_update.png)
 
+After sending the `product` table update request:
+![](./assets/images/after_product_update.png)
+![](./assets/images/after_product_update_workbench.png)
+
+I hope to figure out what is causing this issue, though it has been difficult so far as `node` has not thrown me any errors in the terminal.
 
 ### Continued Development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+In the future, I would love to practice ORM in additional projects and challenges.  I believe using ORM with handlebars would be especially interesting!
 
 ### Useful Resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- [BobbyHadz.com: Solve - Cannot read property 'filter' of Undefined in JS](https://bobbyhadz.com/blog/javascript-cannot-read-property-filter-of-undefined)
+- [GitHub: JSON POST request using app sends empty body](https://github.com/postmanlabs/postman-app-support/issues/8455)
+- [Insomnia](https://insomnia.rest/)
+- [Postman](https://www.postman.com/)
+- [Sequelize: Model Querying - Basics](https://sequelize.org/docs/v6/core-concepts/model-querying-basics/)
+- [Stack Abuse: Using Sequelize ORM with Node.js and Express](https://stackabuse.com/using-sequelize-orm-with-nodejs-and-express/)
+- [Stack Overflow: Sequelize findByPk returns null](https://stackoverflow.com/questions/58442948/sequelize-findbypk-returns-null)
+- [White Oak Security: How To Prepare for an API Pentest – Insomnia](https://www.whiteoaksecurity.com/blog/how-to-prepare-for-an-api-pentest-insomnia/)
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+- GitHub - [https://github.com/anakela](https://github.com/anakela)
+- LinkedIn - [https://www.linkedin.com/in/anakela/](https://www.linkedin.com/in/anakela/)
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+- Fellow Bootcampers
+  - Asha Chakra
+  - Nolan Spence
+- Matthew Kaus (TA)
+- Bobbi Tarkany (Tutor)
