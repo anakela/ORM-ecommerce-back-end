@@ -58,8 +58,7 @@ THEN I am able to successfully create, update, and delete data in my database
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/anakela/orm-ecommerce-back-end](https://github.com/anakela/orm-ecommerce-back-end)
 
 ## My Process
 
